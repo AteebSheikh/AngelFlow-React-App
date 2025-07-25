@@ -1,0 +1,41 @@
+.my-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.my-modal .modal-child {
+  width: 100%;
+  align-items: center !important;
+  flex-direction: column !important;
+  padding: 50px;
+}
+.my-modal .close-icon,
+.my-modal .modal-close-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 34px;
+  border-radius: 50%;
+  background: #fdefe1;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-modal.enter-project .MuiDialog-paperScrollPaper {
+  min-width: 812px;
+}
+.my-modal .modal-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  text-align: center;
+}
+
+.pac-container {
+  z-index: 9999999 !important;
+}/*# sourceMappingURL=style.css.map */
